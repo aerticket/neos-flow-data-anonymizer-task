@@ -1,2 +1,3 @@
-# neos-flow-data-anonymizer-task
-Use ttree/scheduler for automatic anonymization
+# Scheduler task for anonymization
+
+Use ttree/scheduler task for automatic anonymization.

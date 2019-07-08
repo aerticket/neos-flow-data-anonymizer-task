@@ -1,0 +1,21 @@
+{
+  "name": "aerticket/data-anonymizer-task",
+  "type": "neos-package",
+  "description": "Add task that regularly triggers data anonymization",
+  "homepage": "https://github.com/aerticket/neos-flow-data-anonymizer-task",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Heilmann"
+    }
+  ],
+  "require": {
+    "ttree/scheduler": "^2.0",
+    "aerticket/data-anonymizer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aerticket\\DataAnonymizer\\Task\\": "Classes/"
+    }
+  }
+}
