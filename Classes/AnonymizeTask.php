@@ -40,7 +40,7 @@ class AnonymizeTask implements \Ttree\Scheduler\Task\TaskInterface
         $classNames = $this->anonymizationService->getAnonymizableClassNames();
 
         foreach ($classNames as $className) {
-            $statistics = $this->anonymizationService->anonymize($className);
+            $this->anonymizationService->anonymize($className);
         }
     }
 
