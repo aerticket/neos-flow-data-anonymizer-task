@@ -18,7 +18,7 @@ use Ttree\Scheduler\Annotations as Scheduler;
 use Neos\Flow\Annotations as Flow;
 
 /**
- * Autoatically anonymize entities once per hour
+ * Automatically anonymize entities once per hour
  *
  * @Scheduler\Schedule(expression="8 * * * *")
  */
