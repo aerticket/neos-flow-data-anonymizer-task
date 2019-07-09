@@ -14,6 +14,7 @@ namespace Aerticket\DataAnonymizer\Task;
  */
 
 use Aerticket\DataAnonymizer\Service\AnonymizationService;
+use Ttree\Scheduler\Annotations as Scheduler;
 use Neos\Flow\Annotations as Flow;
 
 /**
